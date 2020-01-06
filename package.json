@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Spiiiiro/La_folle_discussion#readme",
   "devDependencies": {
     "vue": "^2.6.11"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
