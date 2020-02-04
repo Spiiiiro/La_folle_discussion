@@ -1,5 +1,5 @@
 var app = require('express')();
-var ent = require('ent')();
+var ent = require('ent');
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
@@ -14,5 +14,5 @@ io.on('connection', function(socket){
 });
 
 http.listen(3000, function(){
-  
+
 });
